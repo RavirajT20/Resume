@@ -1,0 +1,87 @@
+body {
+    background: #f4f6f8;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.resume {
+    max-width: 900px;
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    color: #2c3e50;
+}
+
+header a {
+    text-decoration: none;
+    color: #0077b5;
+}
+
+section {
+    margin-top: 25px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #0077b5;
+    color: white;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+.project a {
+    color: #0077b5;
+    font-weight: bold;
+}
+
+/* CERTIFICATES */
+.certificates {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    width: 250px;
+    text-align: center;
+}
+
+.certificate img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.certificate img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+}
